@@ -12,6 +12,7 @@ public class TimeCalc {
         newTime = newTime + addedTime;
         minutes = newTime % 60;
         hours = newTime / 60;
+        hours = hours % 24; //reset daily hour limit
 
         System.out.printf("%02d:%02d", hours, minutes);
 
