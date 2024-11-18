@@ -17,6 +17,7 @@ public class Cheers {
                                 System.out.println("Give me " + article + " " + cheerName.charAt(i));
                         }
                 }
+                System.out.println("What does that spell?");
                 //print exclamation lines:
                 for(int i = 0; i < exclamation; i++){
                         System.out.println(cheerName + "!!!");
