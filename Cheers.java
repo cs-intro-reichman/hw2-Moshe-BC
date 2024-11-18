@@ -1,7 +1,7 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-                String article = "an", vowel = "aeiou";
+                String article = "an", vowel = "AEIOU";
                 String cheerName = args [0];
                 int exclamation = Integer.parseInt(args[1]);
                 int length = cheerName.length();
