@@ -22,10 +22,9 @@ public class Collatz {
 					count++;
 				}System.out.println("1 (" + count + ")");
 			}
-		}else if(mode.equals("c")){
 			System.out.println("Every one of the first " + length + " hailstone sequences reached 1.");
-
-		}else{
+		
+		}else if(mode.equals("c")){
 			System.out.println("Every one of the first " + length + " hailstone sequences reached 1.");
 
 		}
