@@ -20,7 +20,5 @@ public  class  TestRandom {
 		System.out.println("> 0.5		" + upper);
 		System.out.println("< 0.5		" + lower);
 		System.out.println("Ratio:		" + ratio);
-
-
 	}
 }
