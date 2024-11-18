@@ -7,6 +7,10 @@ public class Collatz {
 		if(mode.equals("v")){
 			for(int i = 1; i - 1 < length; i++){
 				int count = 1, current = i;
+				if (current == 1){
+					System.out.print(current + " ");
+					current = current * 3 + 1;
+					}
 				while (current != 1){
 					System.out.print(current + " ");
 					if (current % 2 == 0){
