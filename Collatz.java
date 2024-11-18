@@ -10,6 +10,7 @@ public class Collatz {
 				if (current == 1){
 					System.out.print(current + " ");
 					current = current * 3 + 1;
+					count++;
 					}
 				while (current != 1){
 					System.out.print(current + " ");
