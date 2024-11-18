@@ -11,10 +11,12 @@ public class Cheers {
                 for(int i = 0; i < length; i++){
                         if (upperCase.indexOf(cheerName.charAt(i)) != -1){
                                 article = "an";
-                                System.out.println("Give me " + article + " " + cheerName.charAt(i));
+                                System.out.println("Give me " + article + "  " + cheerName.charAt(i)
+                                 + ": " + cheerName.charAt(i) + "!");
                         }else{
                                 article = "a";
-                                System.out.println("Give me " + article + " " + cheerName.charAt(i));
+                                System.out.println("Give me " + article + "  " + cheerName.charAt(i)
+                                 + ": " + cheerName.charAt(i) + "!");
                         }
                 }
                 System.out.println("What does that spell?");
