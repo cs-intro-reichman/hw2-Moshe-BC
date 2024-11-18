@@ -15,7 +15,7 @@ public class Cheers {
                                  + ": " + cheerName.charAt(i) + "!");
                         }else{
                                 article = "a";
-                                System.out.println("Give me " + article + " " + cheerName.charAt(i)
+                                System.out.println("Give me " + article + "  " + cheerName.charAt(i)
                                  + ": " + cheerName.charAt(i) + "!");
                         }
                 }
